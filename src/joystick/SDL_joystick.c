@@ -3496,6 +3496,11 @@ bool SDL_IsJoystickGoogleStadiaController(Uint16 vendor_id, Uint16 product_id)
     return vendor_id == USB_VENDOR_GOOGLE && product_id == USB_PRODUCT_GOOGLE_STADIA_CONTROLLER;
 }
 
+bool SDL_IsJoystickMobapadController(Uint16 vendor_id, Uint16 product_id)
+{
+    return vendor_id == USB_VENDOR_MOBAPAD && product_id == USB_PRODUCT_MOBAPAD_ML35;
+}
+
 bool SDL_IsJoystickNVIDIASHIELDController(Uint16 vendor_id, Uint16 product_id)
 {
     return (vendor_id == USB_VENDOR_NVIDIA &&

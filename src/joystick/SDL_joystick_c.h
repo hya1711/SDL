@@ -125,6 +125,9 @@ extern bool SDL_IsJoystickAmazonLunaController(Uint16 vendor_id, Uint16 product_
 // Function to return whether a joystick is a Google Stadia controller
 extern bool SDL_IsJoystickGoogleStadiaController(Uint16 vendor_id, Uint16 product_id);
 
+// Function to return whether a joystick is a Mobapad controller
+extern bool SDL_IsJoystickMobapadController(Uint16 vendor_id, Uint16 product_id);
+
 // Function to return whether a joystick is an NVIDIA SHIELD controller
 extern bool SDL_IsJoystickNVIDIASHIELDController(Uint16 vendor_id, Uint16 product_id);
 

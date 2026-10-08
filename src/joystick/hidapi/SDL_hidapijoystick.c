@@ -44,6 +44,9 @@ static SDL_HIDAPI_DeviceDriver *SDL_HIDAPI_drivers[] = {
 #ifdef SDL_JOYSTICK_HIDAPI_LUNA
     &SDL_HIDAPI_DriverLuna,
 #endif
+#ifdef SDL_JOYSTICK_HIDAPI_MOBAPAD
+    &SDL_HIDAPI_DriverMobapad,
+#endif
 #ifdef SDL_JOYSTICK_HIDAPI_SHIELD
     &SDL_HIDAPI_DriverShield,
 #endif

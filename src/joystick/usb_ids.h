@@ -38,6 +38,7 @@
 #define USB_VENDOR_FLYDIGI_V1   0x04b4
 #define USB_VENDOR_FLYDIGI_V2   0x37d7
 #define USB_VENDOR_GOOGLE       0x18d1
+#define USB_VENDOR_MOBAPAD      0x2345
 #define USB_VENDOR_HARMONIX     0x1bad
 #define USB_VENDOR_HORI         0x0f0d
 #define USB_VENDOR_HP           0x03f0
@@ -88,6 +89,7 @@
 #define USB_PRODUCT_BDA_XB1_FIGHTPAD                      0x791a
 #define USB_PRODUCT_BDA_XB1_SPECTRA_PRO                   0x592a
 #define USB_PRODUCT_GOOGLE_STADIA_CONTROLLER              0x9400
+#define USB_PRODUCT_MOBAPAD_ML35                          0xe06e
 #define USB_PRODUCT_EVORETRO_GAMECUBE_ADAPTER1            0x1843
 #define USB_PRODUCT_EVORETRO_GAMECUBE_ADAPTER2            0x1844
 #define USB_PRODUCT_EVORETRO_GAMECUBE_ADAPTER3            0x1846
